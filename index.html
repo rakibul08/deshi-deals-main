@@ -23,6 +23,12 @@
         --font-work: "Work Sans", sans-serif;
         --spacing-container: 1320px;
       }
+      *{
+        border: 1px solid green;
+      }
+      body{
+        border: red 5px dotted;
+      }
     </style>
   </head>
   <body>
@@ -56,16 +62,16 @@
             <span class="text-[#E527B2]">20% off</span>
           </h2>
           <div class="flex gap-10 justify-center mx-auto items-center">
-            <h3 class="text-[#111111] text-2xl font-medium font-work">
+            <h3 class="text-[#111111]  font-medium font-work">
               Use Promo Code
             </h3>
             <button
-              class="font-bold text-[#ffff] text-2xl font-work bg-[#E527B2] rounded py-2 px-5"
+              class="font-bold text-[#ffff] lg:text-2xl font-work bg-[#E527B2] rounded lg:py-2 lg:px-5"
             >
               SELL200
             </button>
           </div>
-          <img src="assets/hero-bg.png" alt="" class="mx-auto w-20 lg:w-8/12" />
+          <img src="assets/hero-bg.png" alt="" class="mx-auto lg:w-1/2 w-full" />
         </div>
       </div>
     </section>
@@ -75,15 +81,15 @@
     <section class="bg-gray-300  py-40">
       <div class="lg:w-11/12 mx-auto ">
         <!-- gird section  -->
-        <div class="lg:grid grid  lg:grid-cols-12 mt-3 mx-auto">
+        <div class="lg:grid   lg:grid-cols-12 mt-3 mx-auto">
           <div id="card" class="lg:col-span-9 ">
             <div class="pb-5">
               <h1 class="text-black text-4xl font-semibold font-work">
                 Kitchenware
               </h1>
             </div>
-            <div class="grid lg:grid-cols-3 row-3   space-y-3">
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+            <div class="grid lg:grid-cols-3 gap-3 row-3   space-y-3">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/kitchen-1.png"
@@ -104,7 +110,7 @@
                   <button class="btn btn-primary btn-block">Buy Now</button>
                 </div>
               </div>
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/kitchen-2.png"
@@ -125,7 +131,7 @@
                   <button class="btn btn-primary btn-block">Buy Now</button>
                 </div>
               </div>
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/kitchen-3.png"
@@ -152,8 +158,8 @@
                 Sportswear
               </h1>
             </div>
-            <div class="grid row-3 lg:grid-cols-3 space-y-3">
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+            <div class=" row-3 grid gap-3 lg:grid-cols-3 space-y-3">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/sports-1.png"
@@ -174,7 +180,7 @@
                   <button class="btn btn-primary btn-block">Buy Now</button>
                 </div>
               </div>
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/sports-2.png"
@@ -195,7 +201,7 @@
                   <button class="btn btn-primary btn-block">Buy Now</button>
                 </div>
               </div>
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+              <div id="card-1" class="card bg-base-100 pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/sports-3.png"
@@ -222,8 +228,8 @@
                 Furniture
               </h1>
             </div>
-            <div class="grid row-3 lg:grid-cols-3 space-y-3">
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+            <div class="row-3 grid gap-3 lg:grid-cols-3 space-y-3">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/furniture-1.png"
@@ -244,7 +250,7 @@
                   <button class="btn btn-primary btn-block">Buy Now</button>
                 </div>
               </div>
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+              <div id="card-1" class="card bg-base-100  pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/furniture-2.png"
@@ -265,7 +271,7 @@
                   <button class="btn btn-primary btn-block">Buy Now</button>
                 </div>
               </div>
-              <div id="card-1" class="card bg-base-100 w-96 pb-5 shadow-sm">
+              <div id="card-1" class="card bg-base-100 pb-5 shadow-sm">
                 <figure class="px-10 py-10 bg-gray-400 m-6">
                   <img
                     src="assets/furniture-3.png"
@@ -288,7 +294,7 @@
               </div>
             </div>
           </div>
-          <aside class="lg:col-span-3 row-span-3 mt-12 ">
+          <aside class="lg:col-span-3 row-span-3 mt-12 lg:ml-5 ">
            <div class="bg-white  p-10 rounded">
                <h3 class="text-[#111111] text-2xl font-medium font-work mb-3">Have coupon?</h3>
             <div class=" flex ">
