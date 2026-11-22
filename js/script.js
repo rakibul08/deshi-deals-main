@@ -12,6 +12,9 @@ getElement('card').addEventListener('click',function(event){
     if(event.target.className.includes('btn')){
        const cardButton=
        event.target;
+       
+
+       cardButton.setAttribute('disabled',true);
       const productImg=
       cardButton.parentNode.parentNode.children[0].children[0].src;
        const cardTitle=
@@ -19,7 +22,7 @@ getElement('card').addEventListener('click',function(event){
        
        const cardPrize=
        cardButton.parentNode.parentNode.children[1].children[2].children[0].innerText;
-       console.log(cardPrize)
+       
        const addprice=getElement("total-price").innerText;
       const totalAmount=Number(cardPrize)+Number(addprice);
      getElement('total-price').innerText=totalAmount;
